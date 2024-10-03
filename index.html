@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Молнии</title>
+    <!-- Подключение Bootstrap CSS через CDN -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Подключение Lightbox CSS через CDN -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+    <!-- Подключение кастомных стилей -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Размытый фон -->
+    <div class="blurred-bg"></div>
+    
+    <!-- Навигационная панель -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Молнии</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span> </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#what-is-lightning">Что такое молния? <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#how-it-occurs">Как она возникает?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#types">Разновидности молний</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#rare-cases">Редкие случаи</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#interesting-facts">Интересные факты</a>
+                </li> </ul> </div> </nav>
+    <!-- Основной контент -->
+    <div class="container mt-5">
+        <!-- Раздел 1 -->
+        <div id="what-is-lightning" class="panel mb-5">
+            <div class="row">
+                <div class="col-md-6 order-md-2">
+                    <a href="Css/Image/WhatIs.jpg" data-lightbox="lightning" data-title="Молния">
+                        <img src="Css/Image/WhatIs.jpg" alt="Молния" class="img-fluid"> </a> </div>
+                <div class="col-md-6 order-md-1">
+                    <h2>Что такое молния?</h2>
+                    <p>Молния — это мощный электрический разряд, который происходит между облаками или между облаком и землей. Молния сопровождается яркой вспышкой света и громким звуком (громом).</p>
+                </div> </div> </div>
+        <!-- Раздел 2 -->
+        <div id="how-it-occurs" class="panel mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="css/Image/Occur.jpg" data-lightbox="lightning" data-title="Как возникает молния">
+                        <img src="Css/Image/Occur.jpg" alt="Молния" class="img-fluid"> </a> </div>
+                <div class="col-md-6">
+                    <h2>Как она возникает?</h2>
+                    <p>Молния возникает в результате накопления электрических зарядов в облаках. Когда разность потенциалов между облаком и землей (или между облаками) становится достаточно большой, происходит разряд, который мы видим как молнию.</p>
+                </div> </div> </div>
+        <!-- Раздел 3 -->
+        <div id="types" class="panel mb-5">
+            <div class="row">
+                <div class="col-md-6 order-md-2">
+                    <!-- Начало карусели -->
+                    <div id="lightningCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a href="css/Image/Zigzag.jpg" data-lightbox="lightning" data-title="Зигзагообразная молния">
+                                    <img src="css/Image/Zigzag.jpg" class="d-block w-100" alt="Зигзагообразная молния"> </a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Зигзагообразная молния</h5> </div> </div>
+                            <div class="carousel-item">
+                                <a href="css/Image/BlueJett.jpg" data-lightbox="lightning" data-title="Голубой джет">
+                                    <img src="css/Image/BlueJett.jpg" class="d-block w-100" alt="Голубой джет">
+                                </a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Голубой джет</h5> </div> </div>
+                            <div class="carousel-item">
+                                <a href="css/Image/Sprait.jpg" data-lightbox="lightning" data-title="Молния спрайт">
+                                    <img src="css/Image/Sprait.jpg" class="d-block w-100" alt="Молния спрайт"> </a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Молния спрайт</h5> </div> </div>
+                            <div class="carousel-item">
+                                <a href="css/Image/Elf.jpg" data-lightbox="lightning" data-title="Молния эльф">
+                                    <img src="css/Image/Elf.jpg" class="d-block w-100" alt="Молния эльф"> </a>
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Молния эльф</h5>
+                                </div> </div> </div>
+                        <a class="carousel-control-prev" href="#lightningCarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span> </a>
+                        <a class="carousel-control-next" href="#lightningCarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span> </a> </div>
+                    <!-- Конец карусели -->
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h2>Какие разновидности молний бывают?</h2>
+                    <ul>
+                        <li>Зигзагообразная молния</li>
+                        <li>Голубой джет</li>
+                        <li>Молния спрайт</li>
+                        <li>Молния эльф</li>
+                    </ul>
+                </div> </div> </div>
+        <!-- Раздел 4 -->
+        <div id="rare-cases" class="panel mb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="css/Image/Ziaa.jpg" data-lightbox="lightning" data-title="Редкие случаи с молниями">
+                        <img src="css/Image/Ziaa.jpg" alt="Молния" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <h2>Редкие случаи связанные с молниями</h2>
+                    <ul>
+                        <li>Двойные молнии: иногда молния может ударить в одно и то же место дважды за короткий промежуток времени</li>
+                        <li>Молния при ясном небе: Это явление, известное как "молния из ясного неба" или "молния из синего неба", происходит, когда молния ударяет, несмотря на отсутствие облаков над головой. Это связано с грозовыми облаками на расстоянии.</li>
+                        <li>Молнии на вулканах: Во время извержений вулканов могут возникать молнии в результате столкновения частиц пепла и газа, что приводит к накоплению электрического заряда.</li>
+                        <li>Долговременные молнии: Обычно молнии длятся всего несколько миллисекунд, но в редких случаях они могут продолжаться несколько секунд.</li>
+                        <li>Молнии на высоте: Высокогорные молнии, также известные как "молнии на высоте", могут возникать на больших высотах, особенно вблизи горных хребтов. </li>
+                    </ul>
+                </div> </div> </div>
+        <!-- Раздел 5 -->
+        <div id="interesting-facts" class="panel mb-5">
+            <div class="row">
+                <div class="col-md-6 order-md-2">
+                    <a href="css/Image/Katatumbo.jpg" data-lightbox="lightning" data-title="Интересные факты о молниях. Молния в Кататумбо">
+                        <img src="css/Image/Katatumbo.jpg" alt="Молния" class="img-fluid">
+                    </a>
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h2>Интересные факты о молниях</h2>
+                    <ul>
+                        <li>Молния может нагревать воздух до 30 000 градусов по Цельсию.</li>
+                        <li>Кататумбо молнии: Это уникальное природное явление происходит в Венесуэле, где река Кататумбо впадает в озеро Маракайбо. Здесь молнии сверкают практически каждую ночь на протяжении нескольких месяцев в году. Явление объясняется сочетанием географических и климатических факторов, создающих идеальные условия для образования гроз.</li>
+                        <li>На земле происходит около 8 миллионов ударов молний в день.</li>
+                        <li>Антиматерии в молниях: Исследования показали, что молнии могут производить позитроны — частицы антиматерии. Эти частицы образуются при распаде гамма-лучей, вызванных молнией.</li>
+                        <li>Молнии в снеговых бурях: Молнии могут возникать не только в дождевых грозах, но и в сильных снеговых бурях. Это явление известно как "снежные молнии". Они более редки и чаще происходят в холодных регионах.</li>
+                        <li>Разноцветные молнии: Молнии могут быть не только белыми или голубыми. Цвет молнии зависит от условий в атмосфере, таких как температура и присутствие различных газов. Например, молнии могут быть красными, желтыми или фиолетовыми.</li>
+                    </ul>
+                </div> </div> </div> </div>
+    <!-- Подключение полной версии jQuery, Bootstrap JS и Lightbox JS через CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <!-- Скрипт для плавного перехода -->
+    <script>
+        $(document).ready(function() {
+            // Плавный скролл
+            $('a.nav-link').on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function(){
+                        window.location.hash = hash;
+                    }); } });
+            // Анимация появления панелей
+            $(window).on('scroll', function() {
+                $('.panel').each(function() {
+                    var position = $(this).offset().top;
+                    var windowTop = $(window).scrollTop();
+                    if (position < windowTop + $(window).height() - 100) {
+                        $(this).addClass('animate-panel');
+                    } }); }); });
+    </script>
+</body>
+</html>
